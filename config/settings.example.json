@@ -1,0 +1,21 @@
+{
+  "data_root": "C:/Users/YOUR_USER/AppData/Local/SharedMem0",
+  "model_cache_root": "C:/Users/YOUR_USER/AppData/Local/SharedMem0",
+  "user_id": "shared-mem0-user",
+  "device_id": "device-example",
+  "port": 8766,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "llm": {
+    "enabled": false,
+    "model": "",
+    "base_url": "",
+    "api_key": ""
+  },
+  "backup": {
+    "enabled": true,
+    "interval_seconds": 86400,
+    "keep_versions": 48,
+    "shared_folder": "",
+    "share_root": ""
+  }
+}

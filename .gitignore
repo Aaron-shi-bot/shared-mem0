@@ -1,0 +1,26 @@
+# Private installation state and generated data
+/config/*
+!/config/settings.example.json
+/venv/
+/.venv/
+/cache/
+/data/
+/backups/
+/exports/
+/native/
+/automation/
+/logs/
+/imports/
+/.learnings/
+__pycache__/
+*.py[cod]
+*.key
+*.pem
+.env
+.env.*
+*.sqlite*
+*.db
+*.zip
+*.enc
+*.log
+.DS_Store
